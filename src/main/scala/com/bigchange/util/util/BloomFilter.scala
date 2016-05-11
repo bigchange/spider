@@ -18,11 +18,10 @@ object BloomFilter {
   private  val  func = new Array[SimpleHash](seeds.length)
 
   // 初始化随机种子
-  def init(): Unit = {
-    for(i <- seeds.indices) {
-      func(i) = new SimpleHash(DEFAULT_SIZE,seeds(i))
-    }
+  for(i <- seeds.indices) {
+    func(i) = new SimpleHash(DEFAULT_SIZE,seeds(i))
   }
+
   // 添加没有的数据
   def add(value:String)= {
     for(i <- func.indices){

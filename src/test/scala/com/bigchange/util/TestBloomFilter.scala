@@ -10,7 +10,7 @@ class TestBloomFilter extends  FlatSpec with Matchers {
 
   it should "work" in {
 
-    BloomFilter.init()
+    // BloomFilter.init()
     val url = "http://www.baidu.com"
     if(!BloomFilter.contain(url)){
       BloomFilter.add(url)
