@@ -1,4 +1,4 @@
-package util
+package com.bigchange.util.util
 
 import java.io.File
 
@@ -12,7 +12,7 @@ object VerifyCode {
   /** tessdata dir path set */
   private final def datapath = "src/main/resources"
 
-  private def setUp(): Unit ={
+  private def setUp: Unit ={
     instance.setDatapath(new File(datapath).getPath)
   }
   private val instance = new Tesseract

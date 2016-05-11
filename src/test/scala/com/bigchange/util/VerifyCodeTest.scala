@@ -1,5 +1,6 @@
-package util
+package com.bigchange.util
 
+import com.bigchange.util.util.VerifyCode
 import org.scalatest.{FlatSpec, Matchers}
 
 /**
