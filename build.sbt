@@ -12,4 +12,6 @@ libraryDependencies += "org.scalactic" %% "scalactic" % "2.2.5"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.5" % "test"
 
+libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.1"
+
     
