@@ -14,4 +14,7 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.5" % "test"
 
 libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.1"
 
+libraryDependencies += "nu.validator.htmlparser" % "htmlparser" % "1.4"
+
+
     
