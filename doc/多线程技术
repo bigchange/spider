@@ -1,0 +1,6 @@
+多线程的基本使用
+1. 继承java.lang.Thread类,覆盖方法run()
+2. 实现java.lang.Runnable接口，处理逻辑写在实现的run()中
+3. 线程同步：synchronized 关键字，方法和块的使用
+4. 使用线程池（ThreadPool）执行任务，如果需要得到子线程的返回值，可以使子线程任务实现Callable接口，通过Feture的实例返回现程的执行结果
+5. 线程池通过Executors.newFixedThreadPool() 创建，获取实例后通过submit()提交任务
