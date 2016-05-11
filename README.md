@@ -2,6 +2,6 @@
 
 web crawler
 
-##heritrix ##
+* heritrix
 
 开源爬虫架构，多线程爬虫技术
