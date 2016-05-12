@@ -16,5 +16,7 @@ libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.1"
 
 libraryDependencies += "nu.validator.htmlparser" % "htmlparser" % "1.4"
 
+libraryDependencies += "org.htmlparser" % "htmlparser" % "2.1"
+
 
     
